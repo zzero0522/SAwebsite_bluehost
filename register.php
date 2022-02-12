@@ -26,9 +26,9 @@
 		<div id="main">
 			<div class="container">
 				<form name="form" method="post" action="register_action.php">
-						<p>帳號：<input type="text" name="id" /></p> 
-						<p>密碼：<input type="password" name="pw" /></p> 
-						<p>再一次輸入密碼：<input type="password" name="pw2" /></p> 
+						<p>帳號：<input type="text" name="id" required="required"/></p> 
+						<p>密碼：<input type="password" name="pw" required="required"/></p> 
+						<p>再一次輸入密碼：<input type="password" name="pw2" required="required"/></p> 
 					<input type="submit" class="button" value="確定" />
 					<a href="login.php" class="button">返回登入頁</a>
 				</form>

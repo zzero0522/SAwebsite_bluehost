@@ -26,8 +26,8 @@
 		<div id="main">
 			<div class="container">
 				<form name="form" method="post" action="login_action.php">
-					<p>帳號：<input type="text" name="id" /></p> 
-					<p>密碼：<input type="password" name="pw" /></p> 
+					<p>帳號：<input type="text" name="id" required="required"/></p> 
+					<p>密碼：<input type="password" name="pw" required="required"/></p> 
 					<input type="submit" class="button" value="登入" />
 					<a href="register.php" class ="button">申請帳號</a>
 				</form>
