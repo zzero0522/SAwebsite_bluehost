@@ -37,8 +37,8 @@ $username = $_SESSION['username'];
 				</header>
 				
 					<form action='new_vote_action.php' method ='post'>
-						<h3>提案標題</h3><input type = "text" style="width:350px" placeholder="以20字為限" name = "topic"/><br>
-						<h3>提案主文</h3><textarea style="width:350px;height:200px" placeholder="請盡量詳述提案內容" name = "content"></textarea><br>
+						<h3>提案標題</h3><input type = "text" style="width:350px" placeholder="以20字為限" name = "topic" required="required"/><br>
+						<h3>提案主文</h3><textarea style="width:350px;height:200px" placeholder="請盡量詳述提案內容" name = "content" required="required"></textarea><br>
 						<button type = 'submit' class="button">新增提案</button>
 					</form>
 						
